@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-portif-lio/static/css/main.073c9b0a.css",
+    "main.js": "/my-portif-lio/static/js/main.27768376.js",
+    "static/js/787.53b2a456.chunk.js": "/my-portif-lio/static/js/787.53b2a456.chunk.js",
+    "static/media/logo.svg": "/my-portif-lio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/my-portif-lio/index.html",
+    "main.073c9b0a.css.map": "/my-portif-lio/static/css/main.073c9b0a.css.map",
+    "main.27768376.js.map": "/my-portif-lio/static/js/main.27768376.js.map",
+    "787.53b2a456.chunk.js.map": "/my-portif-lio/static/js/787.53b2a456.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.27768376.js"
+  ]
+}
