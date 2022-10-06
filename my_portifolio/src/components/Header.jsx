@@ -1,15 +1,22 @@
 import React from 'react';
-import Header from '../styles/HeaderStyle';
+import { Link } from 'react-router-dom';
+import MainHeader from '../styles/HeaderStyle';
+import Button from './Button';
 
-function Heade() {
+function Header() {
   return (
-    <Header>
+    <MainHeader>
       <div>
         <h1>MEU PORTIFÓLIO</h1>
       </div>
-      <nav></nav>
-      <div></div>
-    </Header>
+      <nav>
+        <Link to="/sobre">SOBRE</Link>
+        <Link to="/theam">TEAM</Link>
+      </nav>
+      <div>
+        <Button path={'/contact'} text={'CONTATOS'}/>
+      </div>
+    </MainHeader>
   )
 }
 
