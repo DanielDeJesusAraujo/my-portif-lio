@@ -5,14 +5,7 @@ function Home() {
   return (
     <main>
       <Header />
-      <section>
-        <section>
-
-        </section>
-        <section>
-          
-        </section>
-      </section>
+      
     </main>
   )
 }
