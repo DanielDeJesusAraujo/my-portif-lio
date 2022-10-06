@@ -11,7 +11,7 @@ function Header() {
       </div>
       <nav>
         <Link to="/sobre">SOBRE</Link>
-        <Link to="/theam">TEAM</Link>
+        <Link to="/theam">TEMA</Link>
       </nav>
       <div>
         <Button path={'/contact'} text={'CONTATOS'}/>

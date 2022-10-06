@@ -5,6 +5,8 @@ const MainHeader = styled.header`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 100px;
+  margin-bottom: 40px;
 
   * {
     font-family: 'Montserrat', sans-serif;
