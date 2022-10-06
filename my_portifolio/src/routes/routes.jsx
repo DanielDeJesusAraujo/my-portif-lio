@@ -5,7 +5,7 @@ import Login from '../pages/Login';
 function MainRoutes() {
   return (
     <Routes>
-      <Route path="/" element={ <Login /> }/>
+      <Route path="/my-portif-lio" element={ <Login /> }/>
     </Routes>
   )
 }
