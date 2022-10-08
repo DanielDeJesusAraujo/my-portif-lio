@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/my-portif-lio/static/css/main.0c6465f8.css",
-    "main.js": "/my-portif-lio/static/js/main.05a77cbb.js",
+    "main.css": "/my-portif-lio/static/css/main.497a85dc.css",
+    "main.js": "/my-portif-lio/static/js/main.edabc5ea.js",
+    "static/media/Captura de tela de 2022-10-07 20-55-50.jpg": "/my-portif-lio/static/media/Captura de tela de 2022-10-07 20-55-50.340e0b1d262c43fc43d6.jpg",
+    "static/media/Captura de tela de 2022-10-07 20-56-32.jpg": "/my-portif-lio/static/media/Captura de tela de 2022-10-07 20-56-32.7b5675c03d22b04c8ae6.jpg",
     "index.html": "/my-portif-lio/index.html",
-    "main.0c6465f8.css.map": "/my-portif-lio/static/css/main.0c6465f8.css.map",
-    "main.05a77cbb.js.map": "/my-portif-lio/static/js/main.05a77cbb.js.map"
+    "main.497a85dc.css.map": "/my-portif-lio/static/css/main.497a85dc.css.map",
+    "main.edabc5ea.js.map": "/my-portif-lio/static/js/main.edabc5ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c6465f8.css",
-    "static/js/main.05a77cbb.js"
+    "static/css/main.497a85dc.css",
+    "static/js/main.edabc5ea.js"
   ]
 }
