@@ -6,6 +6,12 @@ const Main = styled.main`
     justify-content: space-around;
     gap: 20px;
 
+    .about-project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     p {
       text-align: start;
       width: 400px;

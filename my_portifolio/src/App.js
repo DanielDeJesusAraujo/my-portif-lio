@@ -1,10 +1,13 @@
 import './App.css';
+import ContextProvide from './context/provider';
 import MainRoutes from './routes/routes';
 
 function App() {
   return (
     <div className="App">
-      <MainRoutes />
+      <ContextProvide>
+        <MainRoutes />
+      </ContextProvide>
     </div>
   );
 }

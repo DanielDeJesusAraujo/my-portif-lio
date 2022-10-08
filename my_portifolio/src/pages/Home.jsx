@@ -8,7 +8,7 @@ function Home() {
     <Main>
       <Header />
       <section className="container-projects">
-        <section>
+        <section className="about-project">
           <h2>SOBRE OS PROJETOS</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique,
