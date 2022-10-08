@@ -1,12 +1,19 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projects from '../data';
+import AppContext from '../context';
 
 function ControlledCarousel() {
   // meu style está no app.css
   const [index, setIndex] = useState(0);
-
+  const { setInfoProject } = useContext(AppContext);
+  useEffect(() => {
+    setInfoProject({
+      title: projects[index].name,
+      describe: projects[index].describe,
+    })
+  }, [index])
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
@@ -31,12 +38,8 @@ function ControlledCarousel() {
             />
 
             <Carousel.Caption>
-              <h3 className="name">{item.name}</h3>
               <p className="describe">
-                { item.describe }
-                {'click'}
-                {<a href={item.url} target="_blank" rel="noreferrer"> aqui </a>}
-                {'para acessar'}
+                <a className="visitar" href={item.url} target="_blank" rel="noreferrer">VISITAR</a>
               </p>
             </Carousel.Caption>
           </Carousel.Item>

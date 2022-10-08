@@ -22,11 +22,18 @@ body {
 }
 
 .describe {
-  min-width: 600px;
-  text-shadow: 1px 1px 10px #181619;
+  min-width: 550px;
+  display: flex;
+  justify-content: center;
 }
 
-.name {
-  color: #181619;
-  text-shadow: 1px 1px 10px #181619;
+.visitar {
+  padding: 10px 20px;
+  /* border-radius: 5px; */
+  opacity: 0.7;
+  background-color: aliceblue;
+}
+
+.visitar:hover {
+  opacity: 1;
 }

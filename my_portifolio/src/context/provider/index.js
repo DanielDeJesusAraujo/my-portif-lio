@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import AppContext from '..';
 
 function ContextProvide({ children }) {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+  const [infoProject, setInfoProject] = useState({
+    title: '',
+    describe: '',
+  })
 
   const contextValue = {
-    index,
-    handleSelect,
+    infoProject,
+    setInfoProject,
   }
   return (
     <AppContext.Provider value={ contextValue }>
