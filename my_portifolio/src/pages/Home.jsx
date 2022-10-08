@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ControlledCarousel from '../components/Projects';
 import Main from '../styles/HomeStyle';
@@ -17,10 +18,11 @@ function Home() {
             repellendus illum.
           </p>
         </section>
-        <section>
+        <section className="slide">
           <ControlledCarousel />
         </section>
       </section>
+      <Footer />
     </Main>
   )
 }

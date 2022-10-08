@@ -14,7 +14,10 @@ const Main = styled.main`
 
     p {
       text-align: start;
-      width: 400px;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 `;

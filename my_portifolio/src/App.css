@@ -21,6 +21,12 @@ body {
   max-width: 750px;
 }
 
-.name, .describe {
+.describe {
   min-width: 600px;
+  text-shadow: 1px 1px 10px #181619;
+}
+
+.name {
+  color: #181619;
+  text-shadow: 1px 1px 10px #ffffff;
 }
