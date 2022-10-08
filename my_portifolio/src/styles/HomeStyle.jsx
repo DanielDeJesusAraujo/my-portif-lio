@@ -5,6 +5,7 @@ const Main = styled.main`
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    margin: 0 55px;
 
     .about-project {
       display: flex;
